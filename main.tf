@@ -21,7 +21,8 @@ module "lambda_function" {
   layer_runtime = var.layer_runtime
   s3_bucket = var.s3_bucket
   s3_key = var.s3_key
-  event_bucket_name =  module.s3_bucket.bucket_id
+  #event_bucket_name =  module.s3_bucket.bucket_id
+  bucketname = module.s3_bucket.bucket_id
   event_type = var.event_type
  # prefix = var.prefix
  # suffix = var.suffix
