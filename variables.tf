@@ -5,7 +5,7 @@ variable "region_name" {
 
 variable "bucketname" {
   type = string
-  default = "demobucket13"
+  default = "demobucketdev13"
 }
 
 variable "acl" {
