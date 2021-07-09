@@ -110,7 +110,7 @@ variable "s3_key" {
 }
 
 variable "event_type" {
-  type = string
+  type = list
   default = ["s3:ObjectCreated:*"]
 }
 
