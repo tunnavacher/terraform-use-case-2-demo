@@ -11,7 +11,7 @@ module "s3_bucket" {
 }
  
 # Lambda function to start the crawler after S3 PUT Events
-module "lambda_func" {
+module "lambda_function" {
   source = "git::https://github.com/tunnavacher/terraform-aws-lambda-prod.git"
   function_name1 = var.function_name1
   lambda_handler = var.lambda_handler
