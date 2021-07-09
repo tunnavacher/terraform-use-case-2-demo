@@ -61,11 +61,6 @@ variable "lambda_execution_role" {
 #  default = ""
 #}
 
-variable "event_type1" {
-  type = string
-  default = "s3:ObjectCreated:*"
-}
-
 #variable "prefix" {
 #  type = string
  # default = ""
