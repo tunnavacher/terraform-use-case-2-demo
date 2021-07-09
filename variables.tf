@@ -111,7 +111,7 @@ variable "s3_key" {
 
 variable "event_type" {
   type = string
-  default = "s3:ObjectCreated:*"
+  default = ["s3:ObjectCreated:*"]
 }
 
 variable "prefix" {
