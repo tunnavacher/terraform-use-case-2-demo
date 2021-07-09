@@ -29,7 +29,7 @@ module "lambda_function" {
   statement_id1 = var.statement_id1
   action1 = var.action1
   principle1 = var.principle1
-  source_arn = module.s3_bucket.bucket_id
+  source_arn = module.s3_bucket.arn
 
  # Lambda function to start the Glue Job once the Crawler run successfully
   
