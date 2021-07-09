@@ -23,8 +23,8 @@ module "lambda_function" {
   s3_key = var.s3_key
   event_bucket_name =  module.s3_bucket.bucket_id
   event_type = var.event_type
-  prefix = var.prefix
-  suffix = var.suffix
+ # prefix = var.prefix
+ # suffix = var.suffix
   statement_id1 = var.statement_id1
   action1 = var.action1
   principle1 = var.principle1
