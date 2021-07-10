@@ -144,7 +144,7 @@ variable "s3_key1" {
 
 variable "cwrulename" {
  type = string
-  default = "lambda_trigger_after-crawler-succeded"
+  default = "lambda_trigger_after_crawler_succeded"
 }
 
 #variable "Schedule" {
